@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <h1 style="height: 50rem;">demo</h1>
+    <h1 style="height: 50rem;">demo</h1>
+
+    <!-- 悬浮 -->
+    <div class="fixed">
+        <div class="relative flex flex-col">
+            <!-- 图标部分 -->
+            <div class="semi-dy-open-space py-4 bg-white semi-dy-open-space-align-center semi-dy-open-space-vertical"
+                x-semi-prop="children">
+                <div class="relative flex">
+                    <span class="flex">
+                        <span
+                            class="i-icon i-icon-headset-one inline-flex text-semi-color-grey-6 hover:text-semi-color-primary cursor-pointer">
+                            <svg width="20" height="20" viewBox="0 0 48 48" fill="none">
+                                <path d="M36 32C40.4183 32 44 28.4183 44 24C44 19.5817 40.4183 16 36 16" fill="none"
+                                    stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+                                <path d="M36 32V32C40.4183 32 44 28.4183 44 24C44 19.5817 40.4183 16 36 16"
+                                    stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+                                <path d="M12 16C7.58172 16 4 19.5817 4 24C4 28.4183 7.58172 32 12 32" fill="none">
+                                </path>
+                                <path d="M12 16C7.58172 16 4 19.5817 4 24C4 28.4183 7.58172 32 12 32"
+                                    stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+                                <path
+                                    d="M12 32V31.5V29V24V16C12 9.37258 17.3726 4 24 4C30.6274 4 36 9.37258 36 16V32C36 38.6274 30.6274 44 24 44"
+                                    stroke="currentColor" stroke-width="4" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                </path>
+                            </svg>
+                        </span>
+                    </span>
+                    <div id="linkchat-el" class="absolute" style="z-index: -1;"></div>
+                </div>
+                <span class="flex">
+                    <span
+                        class="i-icon i-icon-help text-semi-color-grey-6 hover:text-semi-color-primary inline-flex cursor-pointer">
+                        <svg width="20" height="20" viewBox="0 0 48 48" fill="none">
+                            <path
+                                d="M24 44C29.5228 44 34.5228 41.7614 38.1421 38.1421C41.7614 34.5228 44 29.5228 44 24C44 18.4772 41.7614 13.4772 38.1421 9.85786C34.5228 6.23858 29.5228 4 24 4C18.4772 4 13.4772 6.23858 9.85786 9.85786C6.23858 13.4772 4 18.4772 4 24C4 29.5228 6.23858 34.5228 9.85786 38.1421C13.4772 41.7614 18.4772 44 24 44Z"
+                                fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+                            <path
+                                d="M24 28.6248V24.6248C27.3137 24.6248 30 21.9385 30 18.6248C30 15.3111 27.3137 12.6248 24 12.6248C20.6863 12.6248 18 15.3111 18 18.6248"
+                                stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M24 37.6248C25.3807 37.6248 26.5 36.5055 26.5 35.1248C26.5 33.7441 25.3807 32.6248 24 32.6248C22.6193 32.6248 21.5 33.7441 21.5 35.1248C21.5 36.5055 22.6193 37.6248 24 37.6248Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </span>
+                </span>
+                <span class="flex">
+                    <span
+                        class="i-icon i-icon-two-dimensional-code-one inline-flex text-semi-color-grey-6 hover:text-semi-color-primary cursor-pointer">
+                        <svg width="20" height="20" viewBox="0 0 48 48" fill="none">
+                            <path d="M18 6H6V18H18V6Z" fill="none" stroke="currentColor" stroke-width="4"
+                                stroke-linejoin="round"></path>
+                            <path d="M18 30H6V42H18V30Z" fill="none" stroke="currentColor" stroke-width="4"
+                                stroke-linejoin="round"></path>
+                            <path d="M42 30H30V42H42V30Z" fill="none" stroke="currentColor" stroke-width="4"
+                                stroke-linejoin="round"></path>
+                            <path d="M42 6H30V18H42V6Z" fill="none" stroke="currentColor" stroke-width="4"
+                                stroke-linejoin="round"></path>
+                            <path d="M24 6V24" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+                            <path d="M24 30V42" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+                            <path d="M24 24L6 24" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+                            <path d="M42 24H30" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+                        </svg>
+                    </span>
+                </span>
+            </div>
+
+            <!-- 回到顶部图标 -->
+            <div duration="450"
+                class="semi-dy-open-backtop flex items-center justify-center hover:text-semi-color-primary rounded-full cursor-pointer bg-white w-full absolute"
+                x-semi-prop="children">
+                <span
+                    class="i-icon i-icon-to-top inline-flex hover:text-semi-color-primary text-semi-color-grey-6 bg-transition">
+                    <svg width="20" height="20" viewBox="0 0 48 48" fill="none">
+                        <path d="M24.0083 14.1006V42.0001" stroke="currentColor" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                        <path d="M12 26L24 14L36 26" stroke="currentColor" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                        <path d="M12 6H36" stroke="currentColor" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                </span>
+            </div>
+        </div>
+
+        <!-- 信息容器部分 -->
+        <div id="headset-info" class="info-container headset-info">
+            <p><a href="tel:{eyou:global name='web_attr_2' /}"><span><span>拨打</span>南方市场：</span>1234567890</a></p>
+            <p><a href="tel:{eyou:global name='web_attr_10' /}"><span><span>拨打</span>北方市场：</span>1234567890</a></p>
+        </div>
+        <div id="help-info" class="info-container help-info">
+            <div class="help-column">
+                <h3>帮助服务</h3>
+                <ul>
+                    <li><a href="" target="_blank">帮助中心</a></li>
+                    <li><a href="" target="_blank">更新日志</a></li>
+                </ul>
+            </div>
+            <div class="help-column">
+                <h3>问题反馈</h3>
+                <ul>
+                    <li><a href="" target="_blank">工单记录</a></li>
+                    <li><a href="" target="_blank">侵权投诉</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="code-info" class="info-container code-info">
+            <div class="code-info-left">
+                <img src="./imges/qrcode.jpg" alt="">
+                <p>南方市场</p>
+                <p>微信App扫码联系</p>
+            </div>
+            <div class="code-info-center">
+                <img src="./imges/qrcode.jpg" alt="">
+                <p>北方市场</p>
+                <p>微信App扫码联系</p>
+            </div>
+            <div class="code-info-right">
+                <img src="./imges/qrcode.jpg" alt="">
+                <p>抖音小程序</p>
+                <p>抖音App扫码关注</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
