@@ -3,7 +3,9 @@ A web page floating window .
 
 一个web页面使用的悬浮窗，使用自适应页面布局。
 
-本项目遵循 MIT License 开源协议。
+*本项目遵循 MIT License 开源协议。*
+
+------
 
 
 演示demo：
