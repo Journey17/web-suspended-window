@@ -164,7 +164,7 @@ textarea {
 
 .fixed .semi-dy-open-space,
 .fixed .semi-dy-open-backtop {
-    margin: .4rem 0;
+    margin: .4em 0;
     gap: 16px;
     background-color: #1e4d9b;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 14px;
@@ -186,11 +186,11 @@ textarea {
 }
 
 .fixed .py-4 {
-    padding: 1rem .6rem;
+    padding: 1em .6em;
 }
 
 .fixed .i-icon-to-top {
-    padding: .6rem;
+    padding: .6em;
 }
 
 .flex-col2 .headset-info,
@@ -205,9 +205,9 @@ textarea {
     display: flex;
     justify-content: space-between;
     width: max-content;
-    font-size: 1rem;
+    font-size: 1em;
     right: 56px;
-    padding: 0.5rem;
+    padding: 0.5em;
     bottom: 45%;
     background-color: #fff;
     visibility: hidden;
@@ -267,17 +267,17 @@ textarea {
 
 .help-info {
     bottom: 33%;
-    padding: 1rem 0.2rem;
+    padding: 1em 0.2em;
 }
 
 .help-info h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     color: #848687;
 }
 
 .help-info .help-column {
     flex: 1;
-    padding: 0 .8rem 0 .8rem;
+    padding: 0 .8em 0 .8em;
     border-right: 1px solid #ccc;
     border-right: 1px solid #ccc;
 }
@@ -291,7 +291,7 @@ textarea {
 }
 
 .code-info {
-    width: 25rem;
+    width: 25em;
     font-size: 14px;
     padding: 40% 20%;
     bottom: 30%;
@@ -316,7 +316,7 @@ textarea {
 /* mobile */
 @media screen and (max-width:1200px) {
     .code-info {
-        width: 18rem;
+        width: 18em;
     }
 
     .headset-info {
